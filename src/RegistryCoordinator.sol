@@ -16,7 +16,7 @@ import {BN254} from "./libraries/BN254.sol";
 
 import {OwnableUpgradeable} from "@openzeppelin-upgrades/contracts/access/OwnableUpgradeable.sol";
 import {Initializable} from "@openzeppelin-upgrades/contracts/proxy/utils/Initializable.sol";
-import {EIP712} from "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
+import {EIP712} from "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
 
 import {Pausable} from "eigenlayer-contracts/src/contracts/permissions/Pausable.sol";
 import {RegistryCoordinatorStorage} from "./RegistryCoordinatorStorage.sol";
